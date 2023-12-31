@@ -1,0 +1,387 @@
+
+
+.scrollbar-container {
+    width: 75%; /* Set the desired width */
+    border: 0px solid #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 180px;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #fff; /* Customize background color */
+    padding: 0px; /* Add some padding for a polished look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border-radius: 25px; /* Add border-radius for curved edges */
+    height: 40px;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+/* Scrollbar Content */
+.scrollbar-content {
+    width: 90%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    margin: 0 auto; /* Center the content horizontally */
+    height: 40px;
+    
+}
+
+/* Years Display */
+.years {
+    width: 10000px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    user-select: none;
+    
+}
+
+/* Individual Year */
+.years .year {
+    flex: 0 0 auto;
+    width: 80px;
+    text-align: center;
+    border: 0px solid #ccc;
+    line-height: 50px;
+    font-size: 17px;
+    height: 40px;
+    color: #666;
+    user-select: none;
+}
+
+/* Slider */
+.years-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    user-select: none;
+    
+}
+
+.slider {
+
+    height: 30px;
+    background-color: #666;
+    position: absolute;
+    cursor: pointer;
+    width: 45px;
+    border-radius: 25px;
+    
+}
+
+/* Add hover effect to the slider */
+.slider:hover {
+    background-color: #444;
+    transition: background-color 0.2s;
+    width: 55px;
+    border-radius: 25px;
+}
+#year-2001-image {
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+}
+#year-2002-image {
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Add this CSS to your existing style.css or create a new style element in your HTML */
+
+
+/* Smaller Right Triangle Inside the Slider (Color: Another Color) */
+
+/* Left Arrow Inside the Slider */
+
+svg {
+    
+    
+    width: 20000px; /* Set an appropriate width */
+    height: 2000px; /* Set an appropriate height */
+    overflow: scroll;
+}
+
+  
+  path {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+   
+   
+   
+   
+    
+  }
+
+  
+  
+
+/* Add smooth transition to improve the user experience */
+.transition {
+    transition: all 0.3s ease;
+}
+path {
+    transition: d 0.1s ease-in-out;
+   
+  }
+.parent-c{
+    position: relative;
+}  
+.parent-d{
+    position: relative;
+}  
+/* Stylish CSS with the class name changed to custom-text-box */
+.custom-text-box {
+  position: absolute;
+  top: 100px;
+  left: 727px;
+  width: 200px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #f1f1f1;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  display: none;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.custom-text-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  border-color: #ff9900;
+}
+
+.custom-text-box::before {
+  content: "HTML(1991)";
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.custom-text-box button {
+  background-color: #ff9900;
+  color: #333;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+}
+
+.custom-text-box button:hover {
+  background-color: #ffcc00;
+}
+
+
+.custom-text-box1 button:hover {
+  background-color: #ffcc00;
+}
+
+
+  #year-2004-image {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+  #year-2005-image {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+  #year-2006-image {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 350px;
+    left: 1400px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+  #year-2007-image {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 1600px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+  #year-2008-image {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 1800px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+  #year-2009-image {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 2000px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+  #year-2010-image {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 2200px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+  #year-2011-image {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 2400px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+  #year-2012-image {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 2600px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+
+  #year-2013-image {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 2800px;
+    display: none;
+    
+    
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Background color of the page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically and horizontally */
+}
+
+.text-displayer {
+    position: absolute;
+    top: 80px;
+    left: 50vw;
+    background: linear-gradient(45deg, #959595, #4c4c4c); /* Gradient background */
+    color: #fff; /* White text color */
+    border: none; /* No visible border */
+    border-radius: 50px; /* Circular shape */
+    padding: 10px 15px; /* Increased padding for a more stylish look */
+    font-size: 18px; /* Larger and more stylish font size */
+    font-weight: bold;
+    width: 50px; /* Wider and more pronounced button */
+    text-align: center; /* Center-align the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px;
+    cursor: pointer; /* Show pointer cursor on hover for interactivity */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition on hover */
+
+    /* Add a hover effect for more interactivity */
+    transform: scale(1);
+}
+
+.text-displayer:hover {
+    background: linear-gradient(45deg, #0052a3, #003c7e); /* Darker gradient on hover */
+    transform: scale(1.05); /* Slight scale-up effect on hover */
+}
+.slid{
+    position: fixed;
+}
+
+.head1{
+position: fixed;
+font-size: 23px;
+padding: 20px;
+/* border: 1px solid black; */
+/* border-radius: 20px; */
+/* box-shadow: 1px 1px 10px; */
+text-decoration: underline;
+/* border-radius: 20px; */
+left: 45vw;
+top: 10px;
+}
